@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pack_Food</string>
+    <string name="par_name">Paradise</string>
+    <string name="but_name">Butter chicken</string>
+    <string name="chap_name">Chapathi</string>
+    <string name="chi_name">Tandoori chicken</string>
+
+</resources>

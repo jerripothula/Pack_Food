@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="260sp"
+                android:layout_height="200sp"
+                android:layout_weight="1"
+                android:contentDescription="Nothing"
+                android:onClick="andraClick"
+                app:srcCompat="@drawable/butter" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="260sp"
+                android:layout_height="200sp"
+                android:layout_weight="1"
+                android:contentDescription="Nothing"
+                android:onClick="chickenClick"
+                app:srcCompat="@drawable/paradise" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="200sp"
+                android:layout_height="50sp"
+                android:layout_weight="1"
+                android:text="@string/but_name"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="200sp"
+                android:layout_height="50sp"
+                android:layout_weight="1"
+                android:text="@string/chi_name"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:layout_weight="1"
+                android:contentDescription="Nothing"
+                android:onClick="paradiseClick"
+                app:srcCompat="@drawable/chicken" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:layout_weight="1"
+                android:contentDescription="Nothing"
+                android:onClick="mandiClick"
+                app:srcCompat="@drawable/chapa" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="200sp"
+                android:layout_height="50sp"
+                android:layout_weight="1"
+                android:text="@string/par_name"
+                />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="200sp"
+                android:layout_height="50sp"
+                android:layout_weight="1"
+                android:text="@string/chap_name"
+                />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
