@@ -16,15 +16,48 @@
         android:layout_weight="1"
         android:paddingTop="5dp"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-    <EditText
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Name :"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            style="@style/AppTheme">
+
+        </TextView>
+
+
+        <EditText
         android:id="@+id/nameText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:ems="10"
+        android:layout_marginLeft="20dp"
         android:inputType="textPersonName"
         android:hint="Name"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Location :"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            style="@style/AppTheme">
+
+        </TextView>
 
     <EditText
         android:id="@+id/locationText"
@@ -35,6 +68,23 @@
         android:inputType="textPersonName"
         android:hint="Location"/>
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Keyword :"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            style="@style/AppTheme">
+
+        </TextView>
+
     <EditText
         android:id="@+id/KeywordText"
         android:layout_width="match_parent"
@@ -44,14 +94,34 @@
         android:inputType="textPersonName"
         android:hint="Keyword"/>
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Date :"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            style="@style/AppTheme">
+
+        </TextView>
+
     <EditText
         android:id="@+id/dateText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
         android:layout_weight="1"
         android:ems="10"
         android:inputType="date"
         android:hint="Date"/>
+
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -59,8 +129,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Share"
+            android:text=" Share :"
             android:textSize="20dp"
+            android:textStyle="bold"
+            style="@style/AppTheme"
             android:layout_gravity="center"
             android:layout_weight="1">
 
@@ -71,22 +143,40 @@
             android:layout_width="201dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+           android:textColorHighlight="@color/colorPrimaryDark"
             android:layout_weight="1"
 
             />
     </LinearLayout>
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Email :"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            style="@style/AppTheme">
+
+        </TextView>
 
     <EditText
         android:id="@+id/emailText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
         android:layout_weight="1"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:hint="Email"
         />
+
+    </LinearLayout>
 
     <RatingBar
         android:id="@+id/ratingBar"
